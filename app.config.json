@@ -1,0 +1,20 @@
+{
+  "cesium": {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiODk0NjNmYi0yZjE4LTQxOTAtOGRhNC1mZjI3YzE1NzljMDkiLCJpZCI6NTk2MzMsImlhdCI6MTYyNDM0ODY2MH0.BQFuL1QN1-dZzfiq38PjM_ZUyQjgC0iUtAr5JtEEDVU",
+    "animation": false,
+    "baseLayerPicker": true,
+    "fullscreenButton": false,
+    "vrButton": false,
+    "geocoder": true,
+    "homeButton": true,
+    "infoBox": false,
+    "sceneModePicker": true,
+    "selectionIndicator": false,
+    "timeline": false,
+    "navigationHelpButton": false
+  },
+  "zoomHeightUser": 5,
+  "zoomHeightStart": 20000,
+  "enableGlobeAutoRotation": true,
+  "globeRotationSpeed": -0.25
+}

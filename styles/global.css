@@ -1,0 +1,60 @@
+/*
+  This file is used for all of your global styles and CSS variables.
+  Check here https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties for more info on using CSS variables.
+*/
+:root {
+  --font-family: sans-serif;
+}
+
+html,
+body {
+  font-family: var(--font-family);
+  padding: 0;
+  margin: 0;
+  background: #181818;
+}
+
+body {
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+@media (prefers-color-scheme: light) {
+  html,
+  body {
+    background: #edebe9;
+  }
+}
+
+/**
+ * Cesium adjustments
+ * Note: Using body as parent here to get a stronger selector and overwriting cesium CSS without !important
+ */
+body .cesium-viewer-toolbar {
+  top: 25px;
+  left: 25px;
+  right: auto;
+}
+
+/**
+ * The map-style overlay is right-aligned to the toolbar, which is shorter than Cesium expect.
+ * We left align it which, after we adjust some inner styling too, perfectly on smaller screens
+ */
+body .cesium-baseLayerPicker-dropDown {
+  left: 0;
+  width: 300px;
+}
+body .cesium-baseLayerPicker-choices {
+  border: 0 none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+body .cesium-baseLayerPicker-item {
+  margin: 0;
+}
