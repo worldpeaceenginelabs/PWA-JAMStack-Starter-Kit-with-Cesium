@@ -119,7 +119,7 @@ Now it's reduced to only a front-end in the framework/language you prefer, and a
 ### Back-end Deployment (centralized server)
 
 IF YOU DONT NEED ANY DATABASE
-Github serves to Cloudflare's ultra fast CDN's. Lightspeed fast, no vulnerabilities (no login, no database), easy to maintain, for zero cost.
+Simply store your Websites/Apps sourcecodes on Github. Github serves to Cloudflare's ultra fast CDN's. Lightspeed fast, the lowest vulnerabilities, easy to maintain, for zero cost.
 
 IF YOU NEED A DATABASE
 
