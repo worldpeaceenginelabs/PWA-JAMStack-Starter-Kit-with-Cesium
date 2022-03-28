@@ -1,4 +1,6 @@
-# PWA-SPA-LOGIN-MAINSCREEN-MENU-STARTER-KIT
+# PWA Jamstack Starter Kit with Cesium
+classic front-end = static HTML, hydrated via API
+classic back-end = Server/API
  
 # Features 02.01.2022 stable <a href="https://cloud-atlas.app" target="_blank">LIVE DEMO</a> (Google login only)
 
