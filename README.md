@@ -1,14 +1,17 @@
 # PWA Jamstack Starter Kit with Cesium
 classic front-end = static HTML, hydrated via API
 classic back-end = Server/API
+<br><br><br>
+
+#### Use whatever front-end stack you like!!! React, Svelte, lit, you name it...
  
 # Features 02.01.2022 stable <a href="https://cloud-atlas.app" target="_blank">LIVE DEMO</a> (Google login only)
 
 ## - Progressive Web App
 A !website! which runs like a full installed application on any browser ergo any device, can be installed like an app, and is able to get uploaded to all three stores.
 
-And all from the same codebase which is HTML, CSS, JS, React and Material-UI
-<br>
+And all from the same codebase which is HTML, CSS, JS
+<br><br><br>
 
 ## - Cesium Globe
 A digital twin of the real world. Exactly like Google Earth but open-source, with a hugh potential for literally everything.
@@ -20,13 +23,13 @@ And I repeat myself saying: "why didn't Google ever did it?"
 This is what you are looking for! The PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit with [Cesium](https://cesium.com/platform/cesiumjs/) integration includes everything you need to start building a production ready PWA with location-based services and follows all best practices.
 
 If you already have an app/website check out [pwabuilder.com](https://pwabuilder.com) They provide all tools to get your existing repo on the PWA track. Don't forget to check out their blog. These guys from Microsoft and Google definitely know what they are doing, staying always on the most modern, future proof stack.
-<br>
+<br><br><br>
 
 # Why PWA? Deep insight into the realm of PWA - The future of the internet and apps
 Progressive Web Apps - PWA Roadshow: https://youtu.be/z2JgN6Ae-Bo
 
 This repository will run for 10$ a month on 200 fast CDN servers worldwide, with estimated 2 billion API requests included. (more under DEPLOYMENT AND PACKAGING) ...and you will need a tile-server or tile API provider on the long term (the actual API key is for evaluation only)
-<br>
+<br><br><br>
 
 # WHY THE NON-COMMERCIAL LICENSE MODEL?
 World Peace Engine Labs's existing and upcoming companies, apps, publishings, products, projects, and code, are always licensed by the World Peace Engine Labs License,
@@ -36,6 +39,7 @@ The World Peace Engine Labs license consists of two well-known licenses. The MIT
 https://github.com/worldpeaceenginelabs/PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit/blob/main/LICENSE.txt
 + Creative Commons - Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 + MIT License (altered to non-profit version)
+<br><br><br>
 
 # THIS IS A modified HARDFORK OF PWA BUILDER
 (now React and Material UI - dropping the original lit and FAST libraries)
@@ -52,7 +56,8 @@ You can check anytime how many PWA points your actual app/page has on (https://w
 ...so this is a good repository to start with ;)
 
 PWABuilder.com is an awesome page providing all resources, for drag and drop & copy and paste a manifest or service worker scripts and many well explained snippets for additional native app like features.
- 
+<br><br><br>
+
 # YOU WILL GET
 
 - A 100 on [Lighthouse](https://developers.google.com/web/tools/lighthouse/), giving you a great starting point for performance and accessibility.
@@ -63,6 +68,7 @@ PWABuilder.com is an awesome page providing all resources, for drag and drop & c
 - Includes a Cesium globe for location based services.
 
 Everything's ready to your demand...
+<br><br><br>
 
 # GETTING STARTED
 
@@ -96,10 +102,25 @@ Run `npm install` and then run `npm run dev`, the starter should open in your de
 ### Building for Production
 
 Run `npm run build`, the `dist/` folder will contain your built PWA. The production build will also generate a pre-caching service worker using [Workbox](https://developers.google.com/web/tools/workbox/modules/workbox-precaching).
+<br><br><br>
 
 # DEPLOYMENT AND PACKAGING
 
-### Front-end Deployment
+# Front-End Deployment (static HTML, javascript, hydrated with API)
+
+Use whatever you want!!! Works for every of your favorite stacks.
+
+#### For instance
+- [Lit](https://lit.dev/) -npm i lit (web components, future-ready)
+- Svelte -npm install svelte
+- React -npm install create-react-app
+
+#### Free hosting and 1.8ms global responsetime via CDN network included
+Simply store your website/app/client/server/api sourcecodes on Github. Github serves to Cloudflare Pages ultra fast CDN's. Lightspeed fast, the lowest vulnerabilities, easy to maintain, for zero cost.
+
+JAMStack Rocks!!!
+
+# Something to know...
 
 Once your PWA is ready to deploy you can deploy/host it anywhere.
 
@@ -117,6 +138,7 @@ Without Cloudflare, you would have to pay server traffic every time a user visit
 If the free tier of most as-a-service/api providers is used up, many developers regret some of their decisions due to the complexity of the huge amount of connected environments that developers in the pre-Jamstack time were facing.
 
 Now it's reduced to only a front-end in the framework/language you prefer, and an API back-end that is also replaceable.
+<br><br><br>
 
 ### Back-end Deployment (centralized server)
 
@@ -143,6 +165,7 @@ All the other stuff, thats usually connected with running an app or even a platf
 You can focus on design and code and nothing else. (...and API server scaling...)
 
 JAMStack rocks!!! Cheers.
+<br><br><br>
 
 # OTHER FEATURES
 
