@@ -1,6 +1,10 @@
 # PWA Jamstack Starter Kit with Cesium
 classic front-end = static HTML, hydrated via API
+
 classic back-end = Server/API
+
+# P2P Starterkit
+https://github.com/worldpeaceenginelabs/MISHMESH-P2P-PWA-JAMStack-Starter-Kit
 <br><br><br>
 
 #### Use whatever front-end stack you like!!! React, Svelte, lit, you name it...
