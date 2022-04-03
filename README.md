@@ -4,7 +4,7 @@ classic front-end = static HTML, hydrated via API
 classic back-end = Server/API
 
 # P2P Starterkit
-https://github.com/worldpeaceenginelabs/MISHMESH-P2P-PWA-JAMStack-Starter-Kit
+https://github.com/worldpeaceenginelabs/P2P-PWA-JAMStack-Starter-Kit-with-Cesium
 <br><br><br>
 
 #### Use whatever front-end stack you like!!! React, Svelte, lit, you name it...
@@ -40,7 +40,7 @@ World Peace Engine Labs's existing and upcoming companies, apps, publishings, pr
 to provide the maximum freedom of usage, but restricted to non-profit purposes only.
 
 The World Peace Engine Labs license consists of two well-known licenses. The MIT license is altered, restricted to non-profit purposes only.
-https://github.com/worldpeaceenginelabs/PWA-SPA-LOGIN-MAINSCREEN-MENU-Starter-Kit/blob/main/LICENSE.txt
+https://github.com/worldpeaceenginelabs/PWA-JAMStack-Starter-Kit-with-Cesium/blob/main/LICENSE.txt
 + Creative Commons - Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 + MIT License (altered to non-profit version)
 <br><br><br>
